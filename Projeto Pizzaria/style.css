@@ -69,3 +69,92 @@ a
     color: #fff;
     padding: 3px 10px;
 }
+
+.product-tumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    padding: 50px;
+    background: #f0f0f0;
+}
+
+.product-tumb img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.detalhes-produto {
+    padding: 30px;
+}
+
+.categoria-produto {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ccc;
+    margin-bottom: 18px;
+}
+
+.detalhes-produto h4 a {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    color: #363636;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.detalhes-produto h4 a:hover {
+    color: #fbb72c;
+}
+
+.detalhes-produto p {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 18px;
+    color: #999;
+}
+
+.detalhes-botao-produto {
+    overflow: hidden;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.detalhes-botao-produto div {
+    float: left;
+    width: 50%;
+}
+
+.preco-produto {
+    font-size: 18px;
+    color: #fbb72c;
+    font-weight: 600;
+}
+
+.preco-produto small {
+    font-size: 80%;
+    font-weight: 400;
+    text-decoration: line-through;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.badge-link {
+    text-align: right;
+}
+
+.badge-link a {
+    display: inline-block;
+    margin-left: 5px;
+    color: #e1e1e1;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.badge-link a:hover {
+    color: #fbb72c;
+}
